@@ -1,0 +1,8 @@
+<div style="border: 1px solid red">
+  <p>{{title}}</p>
+  <button (click)="dec()" title="smaller">-</button>
+  <button (click)="inc()" title="bigger">+</button>
+  <p [style.font-size.px]="size">Resize text:{{size}}px</p>
+</div>
+
+

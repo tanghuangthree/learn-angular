@@ -1,0 +1,8 @@
+<div  class="panel panel-primary">
+  <div class="panel-heading">{{title}}</div>
+  <div class="panel-body">
+      <input #myInput type="text" class="form-control" placeholder="局部变量">
+      <p>{{myInput.value}}</p>
+      <button class="btn btn-success" (click)="sayHello(myInput.value)">{{title}}</button>
+  </div>
+</div>
