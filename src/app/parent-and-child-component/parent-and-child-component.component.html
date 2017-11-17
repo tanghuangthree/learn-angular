@@ -1,0 +1,7 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">{{title}}</div>
+  <div class="panel-body">
+    <child #child (fllow)="doSomething()" panelTitle="我是一个新的标题"></child>
+    <button class="btn btn-success" (click)="child.childFu()">调用子组件的方法</button>
+  </div>
+</div>
