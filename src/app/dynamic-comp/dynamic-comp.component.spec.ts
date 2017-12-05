@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TestFlyInComponent } from './test-fly-in.component';
+import { DynamicCompComponent } from './dynamic-comp.component';
 
-describe('TestFlyInComponent', () => {
-  let component: TestFlyInComponent;
-  let fixture: ComponentFixture<TestFlyInComponent>;
+describe('DynamicCompComponent', () => {
+  let component: DynamicCompComponent;
+  let fixture: ComponentFixture<DynamicCompComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TestFlyInComponent ]
+      declarations: [ DynamicCompComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TestFlyInComponent);
+    fixture = TestBed.createComponent(DynamicCompComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
