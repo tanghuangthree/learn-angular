@@ -16,5 +16,10 @@ html {
   padding-bottom: 162px;
 }
 
+.my-border {
+    border: solid 2px yellow;
+}
+
+
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~font-awesome/css/font-awesome.min.css";
