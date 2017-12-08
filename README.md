@@ -16,6 +16,7 @@
 - directive分支，示范指令的玩法
 - module分支，示范模块的玩法
 - router-basic分支，示范router的基本使用
+- router-async-module分支，示范router在懒加载模块中的用法
 ## 备注
 learn-***是一个系列教学项目用的实例源代码，全部链接请点这里：
 
