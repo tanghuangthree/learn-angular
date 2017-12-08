@@ -14,6 +14,7 @@
 - contentchild分支，示范ContentChild和ContentChildren的玩法
 - viewchild分支，示范ViewChild和ViewChildren的玩法
 - directive分支，示范指令的玩法
+- module分支，示范模块的玩法
 ## 备注
 learn-***是一个系列教学项目用的实例源代码，全部链接请点这里：
 
