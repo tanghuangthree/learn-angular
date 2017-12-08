@@ -10,10 +10,10 @@
 - animation分支，示范Angular动画的基本用法，推荐一个写好的开源动画库
 - dynamic-component分支，示范动态组件的各种玩法
 - shadowdom分支，示范Angular渲染组件的3种方式和影子DOM的玩法
-- ng-content分支，示范内容投影用法
+- ng-content和projection分支，示范内容投影用法
 - contentchild分支，示范ContentChild和ContentChildren的玩法
 - viewchild分支，示范ViewChild和ViewChildren的玩法
-
+- directive分支，示范指令的玩法
 ## 备注
 learn-***是一个系列教学项目用的实例源代码，全部链接请点这里：
 
